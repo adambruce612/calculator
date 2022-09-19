@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+.number, .operator {
+    background-color: gray;
+    border-radius: 50%;
+    width: 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 10px;
+    margin: 2px;
+}
+
+.number:hover, .operator:hover {
+    cursor: pointer;
+}
+
+.row {
+    display: block;
+}
+
+.wrapper {
+    margin: auto;
+    width: 15%;
+    text-align: center;
+    background-color: darkgray;
+}
